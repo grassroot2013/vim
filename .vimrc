@@ -1,3 +1,7 @@
+set nocompatible              " be iMproved, required
+
+so ~/.vim/plugins.vim
+
 syntax enable
 
 
@@ -42,6 +46,8 @@ nmap <C-L> <C-W><C-L>
 "Shortcut to our vimrc file.
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader><space> :nohlsearch<cr>
+nmap <C-T> :NERDTreeToggle<cr>
+
 
 "-----------------Auto Commands----------"
 
