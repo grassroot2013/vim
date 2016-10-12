@@ -47,7 +47,10 @@ nmap <C-L> <C-W><C-L>
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader><space> :nohlsearch<cr>
 nmap <C-T> :NERDTreeToggle<cr>
+nmap <c-R> : CtrlPBufTag<cr>
 
+"Maps semicolon to colon
+nmap ; :
 
 "-----------------Auto Commands----------"
 
