@@ -28,6 +28,8 @@ set guioptions-=e
 highlight LineNr ctermfg=darkgrey
 highlight SignColumn ctermfg=darkgrey
 
+highlight vertsplit ctermfg=grey ctermfg=bg
+
 "--------------Searching------------------"
 set hlsearch
 set incsearch
