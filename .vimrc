@@ -25,6 +25,8 @@ set guioptions-=r
 set guioptions-=R
 set guioptions-=e
 
+highlight LineNr ctermfg=darkgrey
+highlight SignColumn ctermfg=darkgrey
 
 "--------------Searching------------------"
 set hlsearch
