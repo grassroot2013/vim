@@ -23,6 +23,8 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
+set guioptions-=e
+
 
 "--------------Searching------------------"
 set hlsearch
@@ -47,10 +49,24 @@ nmap <C-L> <C-W><C-L>
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader><space> :nohlsearch<cr>
 nmap <C-T> :NERDTreeToggle<cr>
-nmap <c-R> : CtrlPBufTag<cr>
+nmap <c-R> :CtrlPBufTag<cr>
+nmap <D-p> :CtrlP<cr>
+nmap <D-e> :CtrlPMRUFiles<cr>
+
 
 "Maps semicolon to colon
 nmap ; :
+
+"-----------Pluggins--------------------"
+
+"/
+"/ CtrlP
+"/
+
+let g:ctrlp_custom_ignore = "node_modules\DS_Store\|git"
+
+
+let NERDTreeHijackNeterw = 0
 
 "-----------------Auto Commands----------"
 
