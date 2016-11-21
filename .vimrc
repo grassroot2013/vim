@@ -72,6 +72,9 @@ let g:ctrlp_custom_ignore = "node_modules\DS_Store\|git"
 
 let NERDTreeHijackNeterw = 0
 
+set grepprg=ag
+let g:grep_cmd_opts = '--line-numbers --noheading'
+
 "-----------------Auto Commands----------"
 
 "Automatically source the vimrc file on save.
