@@ -34,7 +34,9 @@ highlight vertsplit ctermfg=grey ctermfg=bg
 set hlsearch
 set incsearch
 
+"--------------Tabs-----------------------"
 
+set tabstop=4
 
 "-------------Split Management-----------"
 
